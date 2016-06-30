@@ -1,0 +1,22 @@
+{
+  "name": "npmreact",
+  "version": "1.0.0",
+  "description": "bare bone react with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanjian5i5i/foodify.git"
+  },
+  "keywords": [
+    "foodify"
+  ],
+  "author": "Zhou5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanjian5i5i/foodify/issues"
+  },
+  "homepage": "https://github.com/fanjian5i5i/foodify#readme"
+}
