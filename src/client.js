@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import AppBarExampleIconMenu from './Appbar';
-import HomeBanner from './HomeBanner';
+import {HomeBanner} from './HomeBanner';
 
 const muiTheme = getMuiTheme({
   // palette: {
@@ -22,7 +22,7 @@ const App = () => (
     
   </MuiThemeProvider>
   <MuiThemeProvider muiTheme={muiTheme}>
-  	<HomeBanner />
+  	<HomeBanner/>
   </MuiThemeProvider>
 </div>
 );
