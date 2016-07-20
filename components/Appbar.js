@@ -16,7 +16,7 @@ injectTapEventPlugin();
 
 const AppBarSearch = () => (
   <AppBar
-    style={{position: 'fixed'}}
+    style={{position: 'fixed',top:0}}
     zDepth={1}
     title={"Tableside"}
     iconElementLeft={<SideBar/>}

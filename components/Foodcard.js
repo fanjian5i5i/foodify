@@ -12,7 +12,7 @@ const FoodCard = () => (
     <CardMedia
       overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
     >
-      <img src="http://lorempixel.com/600/337/nature/" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/2007feb-sushi-odaiba-manytypes.jpg" />
     </CardMedia>
     <CardTitle title="Card title" subtitle="Card subtitle" />
   </Card>

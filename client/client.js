@@ -26,8 +26,10 @@ const muiTheme = getMuiTheme({
 });
 const styles = {
   paper:{
-    marginTop:8,
-    marginBottom:8,
+    margin:8
+  },
+  cardContainer:{
+    marginTop:64
   }
 }
 const App = () => (
@@ -37,15 +39,7 @@ const App = () => (
 
   </MuiThemeProvider>
   <MuiThemeProvider>
-    <div className="row">
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
-      <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
+    <div className="row" style={styles.cardContainer}>
       <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
       <div className="col-lg-6 col-md-12 col-xs-12"><Paper style={styles.paper}><FoodCard/></Paper></div>
 
