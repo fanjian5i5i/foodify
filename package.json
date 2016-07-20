@@ -1,22 +1,42 @@
 {
-  "name": "npmreact",
+  "name": "react-todo-list",
   "version": "1.0.0",
-  "description": "bare bone react with nodejs",
-  "main": "index.js",
+  "description": "A simple todo list app built with React, Redux and Webpack",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server/server.js --ignore components"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fanjian5i5i/foodify.git"
+    "url": "https://github.com/kweiberth/react-todo-list.git"
   },
-  "keywords": [
-    "foodify"
-  ],
-  "author": "Zhou5",
+  "author": "Kurt Weiberth",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fanjian5i5i/foodify/issues"
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.1",
+    "express": "^4.13.4",
+    "flexboxgrid": "^6.3.0",
+    "material-ui": "^0.15.2",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-esri-map": "^0.1.3",
+    "react-google-maps": "^4.11.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "react-tools": "^0.10.0",
+    "react-transform": "0.0.3",
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.12.1"
   },
-  "homepage": "https://github.com/fanjian5i5i/foodify#readme"
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  }
 }
